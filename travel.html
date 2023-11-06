@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="travel.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/brands.min.css" integrity="sha512-AMDXrE+qaoUHsd0DXQJr5dL4m5xmpkGLxXZQik2TvR2VCVKT/XRPQ4e/LTnwl84mCv+eFm92UG6ErWDtGM/Q5Q==" crossorigin="anonymous" />
+  <!-- this link is used in video for fonts instead of above 2 that i have used      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"            -->
+  
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+
+</head>
+<body>
+    
+  <header>
+     
+    <div id="menu-bar"  class="fa fa-bars"></div>
+
+
+    <a href="http://"  class="logo" ><span>T</span>ravel</a>
+
+    <nav class="navbar">
+       <a href="http://">home</a>
+       <a href="http://">book</a>
+       <a href="http://">packages</a>
+       <a href="http://">services</a>
+       <a href="http://">Gallery</a>
+       <a href="http://">review</a>
+       <a href="http://">contact</a>
+    </nav>
+
+     <div class="icons">
+        <i class="fa fa-search"  id="search-btn"></i>
+        <i class="fa fa-user"  id="login-btn"></i>
+     </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" name="" id="search-bar" placeholder="search here....">
+        <label for="search-bar"  class="fa fa-search"></label>
+
+    </form>
+
+  </header>
+
+  <div class="login-form-container">
+
+        <i class="fa fa-times"  id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" name="" id="" class="box" placeholder="enter your email">
+        <input type="password" name="" id="" class="box" placeholder="enter your password">
+        <input type="submit" name="" id="" class="btn" value="login now">
+        <input type="checkbox" name="" id="remember" >
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="http://">click here</a></p>
+        <p>don't have and account? <a href="http://">register now</a></p>
+
+
+    </form>
+  </div>
+
+<section  class="home"  id="home">
+  <div  class="content">
+  <h3>adventure is worthwhile</h3>
+  <p>discover new places with us, adventure awaits</p>
+  <a href="http://"  class="btn">discover more</a>
+  </div>
+ 
+  <div  class="controls">
+    <span class="vid-btn active"  data-src="https://player.vimeo.com/external/406568164.sd.mp4?s=d34348b81ceba47b6d1a03e0d07256de1d166c43&profile_id=164&oauth2_token_id=57447761"></span>
+    <span class="vid-btn"  data-src="https://player.vimeo.com/external/479454584.sd.mp4?s=e773b7df1ec4a88aa174e112b04b0a253c5dc1a1&profile_id=165&oauth2_token_id=57447761 "></span>
+    <span class="vid-btn"  data-src=" https://player.vimeo.com/external/410156489.sd.mp4?s=102fba84ded23582514b34d0e062eddb2972faa9&profile_id=164&oauth2_token_id=57447761"></span>
+    <span class="vid-btn"  data-src="https://player.vimeo.com/external/291016529.sd.mp4?s=e52adcf963217c503789df1cf688d932cbc4ee57&profile_id=164&oauth2_token_id=57447761 "></span>
+    <span class="vid-btn"  data-src="https://player.vimeo.com/external/363738503.sd.mp4?s=22a068173ea570b20837ff02353aa3dd3dbcd0b9&profile_id=164&oauth2_token_id=57447761 "></span>
+    
+  </div>
+
+   <div  class="video-container">
+    <video src="https://player.vimeo.com/external/406568164.sd.mp4?s=d34348b81ceba47b6d1a03e0d07256de1d166c43&profile_id=164&oauth2_token_id=57447761" id="video-slider" loop autoplay muted></video>
+   </div>
+</section>
+
+<section  class="book" id="book">
+   <h1  class="heading">
+  <span>b</span>
+  <span>o</span>
+  <span>o</span>
+  <span>k</span>
+  <span  class="space"></span>
+  <span>n</span>
+  <span>o</span>
+  <span>w</span>
+</h1>
+
+<div  class="row">
+  <div  class="image">
+    <img src="https://img.freepik.com/free-vector/hand-drawn-thailand-travel-illustration_23-2150216100.jpg?size=626&ext=jpg" alt="" srcset="">
+  </div>
+
+  <form action="">
+   <div  class="inputBox">
+     <h3>Where to</h3>
+     <input type="text" placeholder="place name">
+   </div>
+   <div  class="inputBox">
+    <h3>how many</h3>
+    <input type="number" placeholder="number of guests">
+  </div>
+
+  <div  class="inputBox">
+    <h3>arrivals</h3>
+    <input type="date" >
+  </div>
+  <div  class="inputBox">
+    <h3>leaving</h3>
+    <input type="date" >
+  </div>
+    <input type="submit "  class="btn" value="book now">
+
+  </form>
+</div>
+</section>
+
+<section class="packages"  id="packages">
+ <h1  class="heading">
+    <span>p</span>
+    <span>a</span>
+    <span>c</span>
+    <span>k</span>
+    <span>a</span>
+    <span>g</span>
+    <span>e</span>
+    <span>s</span>
+  </h1>
+<div class="box-container">
+  <div class="box">
+    <img src="https://img.freepik.com/premium-photo/gateway-india_78361-4513.jpg?w=900" alt="" srcset="">
+    <div   class="content">
+    <h3> <i class="fa fa-map-marker"></i>  mumbai</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+   <div  class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+   </div>
+     <div class="price">$90.00<span>$120.00</span></div>
+     <a href="http://"  class="btn">book now</a>
+
+    </div>
+  </div>
+
+
+  <div class="box">
+    <img src="https://img.freepik.com/free-photo/sydney-opera-house-near-beautiful-sea-clear-blue-sky_181624-8472.jpg?size=626&ext=jpg" alt="" srcset="">
+    <div   class="content">
+    <h3> <i class="fa fa-map-marker"></i>  sydney</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+   <div  class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+   </div>
+     <div class="price">$90.00<span>$120.00</span></div>
+     <a href="http://"  class="btn">book now</a>
+
+    </div>
+  </div>
+
+
+
+  <div class="box">
+    <img src="https://img.freepik.com/premium-photo/singapore-downtown-skyline-bay-area-twilight_255553-2795.jpg?w=900" alt="" srcset="">
+    <div   class="content">
+    <h3> <i class="fa fa-map-marker"></i> singapore</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+   <div  class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+   </div>
+     <div class="price">$90.00<span>$120.00</span></div>
+     <a href="http://"  class="btn">book now</a>
+
+    </div>
+  </div>
+
+  <div class="box">
+    <img src="https://img.freepik.com/premium-photo/eiffel-tower-sunset-paris-france_79295-14323.jpg?w=900" alt="" srcset="">
+    <div   class="content">
+    <h3> <i class="fa fa-map-marker"></i> paris</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+   <div  class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+   </div>
+     <div class="price">$90.00<span>$120.00</span></div>
+     <a href="http://"  class="btn">book now</a>
+
+    </div>
+  </div>
+
+
+  <div class="box">
+    <img src="https://img.freepik.com/free-photo/asian-woman-wearing-japanese-traditional-kimono-looking-cherry-blossoms-castle-himeji-japan_335224-159.jpg?w=900&t=st=1681323164~exp=1681323764~hmac=031550ac721d3b9296fa6a50b0754bb9d2750ba3cd2bd9847efb2a0d33aeb99d" alt="" srcset="">
+    <div   class="content">
+    <h3> <i class="fa fa-map-marker"></i> japan</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+   <div  class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+   </div>
+     <div class="price">$90.00<span>$120.00</span></div>
+     <a href="http://"  class="btn">book now</a>
+
+    </div>
+  </div>
+
+
+  <div class="box">
+    <img src="https://img.freepik.com/free-photo/young-man-walking-towards-great-sphinx-giza_181624-51674.jpg?w=900&t=st=1681323387~exp=1681323987~hmac=684e0051ce42f18c09ce6264988bbde405e8f2d4dda5afc0cc6ad3c596673609" alt="" srcset="">
+    <div   class="content">
+    <h3> <i class="fa fa-map-marker"></i> egypt</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+   <div  class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+   </div>
+     <div class="price">$90.00<span>$120.00</span></div>
+     <a href="http://"  class="btn">book now</a>
+
+    </div>
+  </div>
+
+
+</div>
+
+</section>
+
+<section class="services" id="services">
+  <h1  class="heading"> 
+      <span>s</span>
+      <span>e</span>
+      <span>r</span>
+      <span>v</span>
+      <span>i</span>
+      <span>c</span>
+      <span>e</span>
+      <span>s</span>
+  </h1>
+
+  <div class="box-container">
+     <div class="box">
+        <i class="fa fa-hotel"></i>
+        <h3>affordable hotels</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+     </div>
+
+     <div class="box">
+      <i class="fa fa-cutlery"></i>
+      <h3>food and drinks</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+     </div>
+
+      <div class="box">
+       <i class="fa fa-bullhorn"></i>
+       <h3>safety guide</h3>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+
+
+      <div class="box">
+       <i class="fa fa-map-marker"></i>
+       <h3>around the world</h3>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+  
+      <div class="box">
+        <i class="fa fa-plane"></i>
+        <h3>fastest travel</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+
+
+      <div class="box">
+       <i class="fa fa-bicycle"></i>
+       <h3>adventures</h3>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+
+  </div>
+</section>
+ 
+
+<section class="gallery" id="gallery">
+   <h1  class="heading">
+      <span>g</span>
+      <span>a</span>
+      <span>l</span>
+      <span>l</span>
+      <span>e</span>
+      <span>r</span>
+      <span>y</span>
+   </h1>
+  
+   <div class="box-container">
+       <div class="box">
+          <img src="https://img.freepik.com/free-photo/tourist-sitting-phu-sub-lek-viewpoint-sunset-lopburi-thailand_335224-1390.jpg?size=626&ext=jpg" alt="" srcset="">
+          <div clas="content">
+          <h3>amamzing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <a href="http:// " class="btn">see more</a>
+         </div>
+       </div>
+
+       <div class="box">
+        <img src="https://img.freepik.com/free-photo/beautiful-girl-sitting-viewpoint-koh-nangyuan-island-near-koh-tao-island-surat-thani-thailand_335224-1093.jpg?size=626&ext=jpg" alt="" srcset="">
+        <div clas="content">
+        <h3>amamzing places</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <a href="http:// " class="btn">see more</a>
+       </div>
+     </div>
+
+     <div class="box">
+      <img src="https://img.freepik.com/free-photo/ruins-acropolis_181624-14703.jpg?size=626&ext=jpg" alt="" srcset="">
+      <div clas="content">
+      <h3>amamzing places</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      <a href="http:// " class="btn">see more</a>
+     </div>
+   </div>
+
+   <div class="box">
+    <img src="https://img.freepik.com/free-photo/road-leading-mountain-range-with-blue-sky-clouds_1340-26685.jpg?size=626&ext=jpg" alt="" srcset="">
+    <div clas="content">
+    <h3>amamzing places</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <a href="http:// " class="btn">see more</a>
+   </div>
+ </div>
+
+ <div class="box">
+  <img src="https://img.freepik.com/premium-photo/himalaya-mountain-kashmir-snow-village-gulmarg-india-landscape-beautiful-nature-himalaya-mountain-sky_593195-69.jpg?size=626&ext=jpg" alt="" srcset="">
+  <div clas="content">
+  <h3>amamzing places</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+  <a href="http:// " class="btn">see more</a>
+ </div>
+</div>
+
+<div class="box">
+  <img src="https://img.freepik.com/premium-photo/norwegian-fjords_143092-76.jpg?size=626&ext=jpg" alt="" srcset="">
+  <div clas="content">
+  <h3>amamzing places</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+  <a href="http:// " class="btn">see more</a>
+ </div>
+</div>
+
+<div class="box">
+  <img src="https://img.freepik.com/free-photo/breathtaking-shot-beautiful-stones-turquoise-water-lake-hills-background_181624-12847.jpg?size=626&ext=jpg" alt="" srcset="">
+  <div clas="content">
+  <h3>amamzing places</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+  <a href="http:// " class="btn">see more</a>
+ </div>
+</div>
+
+<div class="box">
+  <img src="https://img.freepik.com/free-photo/blue-villa-beautiful-sea-hotel_1203-5316.jpg?size=626&ext=jpg" alt="" srcset="">
+  <div clas="content">
+  <h3>amamzing places</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+  <a href="http:// " class="btn">see more</a>
+ </div>
+</div>
+
+<div class="box">
+  <img src="https://img.freepik.com/free-photo/beautiful-water-villas-tropical-maldives-island-sunset-time_1232-4499.jpg?size=626&ext=jpg" alt="" srcset="">
+  <div clas="content">
+  <h3>amamzing places</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+  <a href="http:// " class="btn">see more</a>
+ </div>
+</div>
+
+
+   </div>
+</section>
+
+
+<section class="review" id="review">
+   <h1 class="heading">
+     <span>r</span>
+     <span>e</span>
+     <span>v</span>
+     <span>i</span>
+     <span>e</span>
+     <span>w</span>     
+   </h1>
+
+    <div class="swiper-container review-slider">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="box">
+             <img src="https://img.freepik.com/free-photo/young-woman-with-round-glasses-yellow-sweater_273609-7091.jpg?size=626&ext=jpg" alt="" srcset="">
+              <h3>john deo</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+               <div  class="stars">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+               </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box">
+             <img src="https://img.freepik.com/free-photo/lifestyle-people-emotions-casual-concept-confident-nice-smiling-asian-woman-cross-arms-chest-confident-ready-help-listening-coworkers-taking-part-conversation_1258-59335.jpg?size=626&ext=jpg" alt="" srcset="">
+              <h3>john deo</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+               <div  class="stars">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-empty"></i>
+               </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box">
+             <img src="https://img.freepik.com/free-photo/close-up-happy-young-woman-smiling-with-white-teeth-whitening-procedure-dental-clinic-standing-tshirt-against-white-background_176420-48845.jpg?size=626&ext=jpg" alt="" srcset="">
+              <h3>john deo</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+               <div  class="stars">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+               </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box">
+             <img src="https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=626&ext=jpg " alt="" srcset="">
+              <h3>john deo</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+               <div  class="stars">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+               </div>
+          </div>
+        </div>
+
+
+      </div>
+       
+    </div>
+</section>
+
+
+<section class="contact">
+  
+  <h1  class="heading">
+     <span>c</span>
+     <span>o</span>
+     <span>n</span>
+     <span>t</span>
+     <span>a</span>
+     <span>c</span>
+     <span>t</span>
+  </h1>
+
+   <div  class="row">
+
+    <div class="image">
+     <img src="https://img.freepik.com/free-vector/silhouette-tourist-people-earth-planet_1308-116900.jpg?size=626&ext=jpg" alt="" srcset="">
+    </div>
+
+   <form action="">
+      <div class="inputBox">
+       <input type="text" placeholder="name">
+       <input type="email" placeholder="email">
+       </div>
+
+       <div class="inputBox">
+       <input type="number" placeholder="number">
+       <input type="text" placeholder="subject">
+       </div>
+
+<textarea placeholder="message" name="" id="" cols="30"  rows="10"></textarea>
+<input type="submit" class="btn" value="send message">
+
+</form>
+</div>
+
+</section>
+
+
+
+<section class="brand-container">
+  <div class="swiper-container brand-slider">
+    <div class="swiper-wrapper">
+       <div class="swiper-slide"><img src="https://img.freepik.com/free-vector/yellow-happy-hour-lettering_23-2148279954.jpg?size=626&ext=jpg" alt="" srcset="" width="50%" height="40%"></div>
+       <div class="swiper-slide"><img src="https://img.freepik.com/free-vector/travel-time-typography-design_1308-84338.jpg?size=626&ext=jpg" alt="" srcset=""  width="50%" height="40%"></div>
+       <div class="swiper-slide"><img src="https://img.freepik.com/free-icon/evil_318-203221.jpg?size=626&ext=jpg" alt="" srcset=""   width="50%" height="40%"></div>
+       <div class="swiper-slide"><img src="https://img.freepik.com/free-icon/google-panda-circular-symbol_318-64427.jpg?size=626&ext=jpg" alt="" srcset=""    width="50%" height="40%"></div>
+       <div class="swiper-slide"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn2ZE-edZkxdqvoHz5OflxtBqZBvnvV86lDuWSrCn-xc1X-N0q65353JR76vfH28b3iTQ&usqp=CAU"   width="50%" height="40%"></div>
+       <div class="swiper-slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzHmVsvudYEvdbDinAAz7E1juw0pPKGMPwrw&usqp=CAU" alt="" srcset="" width="50%" height="40%" ></div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="footer">
+ <div class="box-container">
+  <div class="box"> 
+  <h3>about us</h3>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam?</p>
+  </div>
+
+  <div class="box"> 
+    <h3>branch locations</h3>
+    <a href="http://">india</a>
+    <a href="http://">USA</a>
+    <a href="http://">japan</a>
+    <a href="http://">france</a>
+   </div>
+
+    <div class="box"> 
+    <h3>quick links</h3>
+    <a href="http://">home</a>
+    <a href="http://">book</a>
+    <a href="http://">packages</a>
+    <a href="http://">services</a>
+    <a href="http://">gallery</a>
+    <a href="http://">review</a>
+    <a href="http://">contact</a>
+    </div>
+   
+<div class="box"> 
+  <h3>follow us</h3>
+  <a href="http://">facebook</a>
+  <a href="http://">instagram</a>
+  <a href="http://">twitter</a>
+  <a href="http://">linkedin</a>
+</div>
+ </div>
+
+   <h1 class="credit">created by <span> mr. web designer</span>! all rights reserved! </h1>
+
+
+ </section>
+
+
+
+
+
+
+
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- <script type="module">
+  import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+
+  const swiper = new Swiper(...)
+</script> -->
+
+
+
+
+  <script src="travel.js"></script>
+
+  
+</body>
+</html>
